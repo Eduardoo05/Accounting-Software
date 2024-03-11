@@ -5,6 +5,7 @@ import { LibroDiario } from './pages/LibroDiario'
 import { LibroMayor } from './pages/LibroMayor'
 import { EstadoResultado } from './pages/EstadoResultado'
 
+
 function App() {
 
   const routes = createBrowserRouter([
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
       <RouterProvider router={routes}>
-
+        
       </RouterProvider>
     </>
   )
